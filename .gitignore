@@ -1,0 +1,94 @@
+#########################################################
+# MCU Xpresso
+#########################################################
+
+docs/
+.settings/
+.cproject
+.project
+.launch
+
+sw/Release/**
+sw/Debug/**
+.clang-format
+
+#########################################################
+# NXP SDK libraries
+#########################################################
+
+sw/src/lib/**
+sw/src/board/**
+sw/mods/**
+
+crp.c
+
+#########################################################
+# KiCad
+#########################################################
+
+# ---- Auto-save & backup files ----
+# KiCad auto-saves
+#auto_saved_files#*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.tmp
+
+# Hardware backup folder
+hw-backups/
+
+# Lock files (created when project is open)
+*.lck
+
+# Local / user-specific settings (DO NOT version)
+*.kicad_prl          # Project local settings (window positions, etc.)
+*.kicad_pro.user     # User-specific settings
+fp-info-cache        # Footprint library cache
+
+# Simulation output
+*.raw
+*.net
+
+# Fabrication toolkit 
+fabrication-tookit-options.json
+
+# Generated fabrication / manufacturing outputs
+production/
+gerbers/
+drill/
+plots/
+pos/
+pickplace/
+*.gbr
+*.drl
+*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hw")(type "KiCad")(uri "${KIPRJMOD}/hw.kicad_sym")(options "")(descr ""))
+  (lib (name "launcher-pro")(type "KiCad")(uri "${KIPRJMOD}/hw.kicad_sym")(options "")(descr ""))
+)

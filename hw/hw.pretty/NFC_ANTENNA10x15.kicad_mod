@@ -1,0 +1,378 @@
+(footprint "NFC_ANTENNA10x15"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.762 -2.032 0)
+		(layer "F.SilkS")
+		(uuid "42568cdb-4457-4b84-979b-d9d3be882f6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NFC_Antenna"
+		(at 7.5 7 0)
+		(layer "F.Fab")
+		(uuid "ac425b40-675a-40eb-8f5b-20818accc684")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82c51364-f7c2-4410-8e0f-a53e857b5d40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0128ca0b-aaf1-446e-9c99-e2136a18ba3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1 -1)
+		(end 16 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eca7255a-eb32-44da-9620-08f6c9af19cf")
+	)
+	(fp_line
+		(start -1 11)
+		(end -1 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ea2ca44-7708-4891-a82b-ca8919c864c5")
+	)
+	(fp_line
+		(start 16 -1)
+		(end 16 11)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a1643b5-2d13-45f9-a3c7-1718d01a8194")
+	)
+	(fp_line
+		(start 16 11)
+		(end -1 11)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fae5127f-b46e-4f0a-8061-7f0a22504266")
+	)
+	(pad "1" thru_hole circle
+		(at 0.075 9.925)
+		(size 0.15 0.15)
+		(drill 0.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff245aa5-ca56-4f20-9c04-498279ce2879")
+	)
+	(pad "1" smd custom
+		(at 0.075 9.925)
+		(size 0.15 0.15)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 0 -9.85)
+				(width 0.15)
+			)
+			(gr_line
+				(start 0 -9.85)
+				(end 14.85 -9.85)
+				(width 0.15)
+			)
+			(gr_line
+				(start 14.85 -9.85)
+				(end 14.85 0)
+				(width 0.15)
+			)
+			(gr_line
+				(start 14.85 0)
+				(end 0.32 0)
+				(width 0.15)
+			)
+			(gr_line
+				(start 0.32 0)
+				(end 0.32 -9.53)
+				(width 0.15)
+			)
+			(gr_line
+				(start 0.32 -9.53)
+				(end 14.53 -9.53)
+				(width 0.15)
+			)
+			(gr_line
+				(start 14.53 -9.53)
+				(end 14.53 -0.32)
+				(width 0.15)
+			)
+			(gr_line
+				(start 14.53 -0.32)
+				(end 0.64 -0.32)
+				(width 0.15)
+			)
+			(gr_line
+				(start 0.64 -0.32)
+				(end 0.64 -9.21)
+				(width 0.15)
+			)
+			(gr_line
+				(start 0.64 -9.21)
+				(end 14.21 -9.21)
+				(width 0.15)
+			)
+			(gr_line
+				(start 14.21 -9.21)
+				(end 14.21 -0.64)
+				(width 0.15)
+			)
+			(gr_line
+				(start 14.21 -0.64)
+				(end 0.96 -0.64)
+				(width 0.15)
+			)
+			(gr_line
+				(start 0.96 -0.64)
+				(end 0.96 -8.89)
+				(width 0.15)
+			)
+			(gr_line
+				(start 0.96 -8.89)
+				(end 13.89 -8.89)
+				(width 0.15)
+			)
+			(gr_line
+				(start 13.89 -8.89)
+				(end 13.89 -0.96)
+				(width 0.15)
+			)
+			(gr_line
+				(start 13.89 -0.96)
+				(end 1.28 -0.96)
+				(width 0.15)
+			)
+			(gr_line
+				(start 1.28 -0.96)
+				(end 1.28 -8.57)
+				(width 0.15)
+			)
+			(gr_line
+				(start 1.28 -8.57)
+				(end 13.57 -8.57)
+				(width 0.15)
+			)
+			(gr_line
+				(start 13.57 -8.57)
+				(end 13.57 -1.28)
+				(width 0.15)
+			)
+			(gr_line
+				(start 13.57 -1.28)
+				(end 1.6 -1.28)
+				(width 0.15)
+			)
+			(gr_line
+				(start 1.6 -1.28)
+				(end 1.6 -8.25)
+				(width 0.15)
+			)
+			(gr_line
+				(start 1.6 -8.25)
+				(end 13.25 -8.25)
+				(width 0.15)
+			)
+			(gr_line
+				(start 13.25 -8.25)
+				(end 13.25 -1.6)
+				(width 0.15)
+			)
+			(gr_line
+				(start 13.25 -1.6)
+				(end 1.92 -1.6)
+				(width 0.15)
+			)
+			(gr_line
+				(start 1.92 -1.6)
+				(end 1.92 -7.93)
+				(width 0.15)
+			)
+			(gr_line
+				(start 1.92 -7.93)
+				(end 12.93 -7.93)
+				(width 0.15)
+			)
+			(gr_line
+				(start 12.93 -7.93)
+				(end 12.93 -1.92)
+				(width 0.15)
+			)
+			(gr_line
+				(start 12.93 -1.92)
+				(end 2.24 -1.92)
+				(width 0.15)
+			)
+			(gr_line
+				(start 2.24 -1.92)
+				(end 2.24 -7.61)
+				(width 0.15)
+			)
+			(gr_line
+				(start 2.24 -7.61)
+				(end 12.61 -7.61)
+				(width 0.15)
+			)
+			(gr_line
+				(start 12.61 -7.61)
+				(end 12.61 -2.24)
+				(width 0.15)
+			)
+			(gr_line
+				(start 12.61 -2.24)
+				(end 2.56 -2.24)
+				(width 0.15)
+			)
+			(gr_line
+				(start 2.56 -2.24)
+				(end 2.56 -7.29)
+				(width 0.15)
+			)
+			(gr_line
+				(start 2.56 -7.29)
+				(end 12.29 -7.29)
+				(width 0.15)
+			)
+			(gr_line
+				(start 12.29 -7.29)
+				(end 12.29 -2.56)
+				(width 0.15)
+			)
+			(gr_line
+				(start 12.29 -2.56)
+				(end 2.88 -2.56)
+				(width 0.15)
+			)
+			(gr_line
+				(start 2.88 -2.56)
+				(end 2.88 -6.97)
+				(width 0.15)
+			)
+			(gr_line
+				(start 2.88 -6.97)
+				(end 11.97 -6.97)
+				(width 0.15)
+			)
+			(gr_line
+				(start 11.97 -6.97)
+				(end 11.97 -2.88)
+				(width 0.15)
+			)
+			(gr_line
+				(start 11.97 -2.88)
+				(end 3.2 -2.88)
+				(width 0.15)
+			)
+			(gr_line
+				(start 3.2 -2.88)
+				(end 3.2 -6.65)
+				(width 0.15)
+			)
+			(gr_line
+				(start 3.2 -6.65)
+				(end 11.65 -6.65)
+				(width 0.15)
+			)
+			(gr_line
+				(start 11.65 -6.65)
+				(end 11.65 -3.2)
+				(width 0.15)
+			)
+			(gr_line
+				(start 11.65 -3.2)
+				(end 3.52 -3.2)
+				(width 0.15)
+			)
+			(gr_line
+				(start 3.52 -3.2)
+				(end 3.52 -6.33)
+				(width 0.15)
+			)
+			(gr_line
+				(start 3.52 -6.33)
+				(end 11.33 -6.33)
+				(width 0.15)
+			)
+			(gr_line
+				(start 11.33 -6.33)
+				(end 11.33 -3.52)
+				(width 0.15)
+			)
+		)
+		(uuid "17d668f8-e307-4728-a72c-a5ba4f5901a6")
+	)
+	(pad "2" thru_hole circle
+		(at 3.915 6.405)
+		(size 0.15 0.15)
+		(drill 0.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b119631-537d-490a-b97f-7943800724ab")
+	)
+	(pad "2" smd custom
+		(at 3.915 6.405)
+		(size 0.15 0.15)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 7.49 0)
+				(width 0.15)
+			)
+		)
+		(uuid "db16c13b-097e-46b9-95e5-c61f8d2d19ca")
+	)
+	(embedded_fonts no)
+)
